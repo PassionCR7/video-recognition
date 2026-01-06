@@ -1,2 +1,2 @@
-# video-recognition
-It's a 3DCNN-Based DL model about video-recognition
+这里放置ucf101-caffe.pth权重文件
+
