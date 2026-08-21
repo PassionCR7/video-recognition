@@ -10,15 +10,24 @@ C3D（Convolutional 3D）是经典三维卷积神经网络，使用 3D 卷积核
 论文参考：Learning Spatiotemporal Features with 3D Convolutional Networks
 
 
-video‑recognition/
+video‑recognition
+
 ├── C3D_model.py      # C3D网络模型定义，卷积、池化、全连接层网络结构
+
 ├── data_process.py   # 视频预处理工具：视频读取、抽帧、resize、归一化、帧采样
+
 ├── dataset.py        # PyTorch Dataset数据集类，读取视频，构建训练/验证数据集
+
 ├── train.py          # 训练脚本：加载数据集、模型训练、验证、保存模型权重
+
 ├── inference.py      # 推理脚本：输入单条视频，输出动作识别预测结果
+
 ├── README.md         # 项目说明文档
+
 ├── v_YoYo_g01_c01.avi # 示例测试视频（UCF101 YoYo类别样例）
+
 ├── file.png          # 项目效果图/示意图
+
 └── ucf101‑caffe.pth  #【需要自行下载放入根目录】C3D预训练权重
 
 
